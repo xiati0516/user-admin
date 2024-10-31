@@ -9,9 +9,9 @@ spring:
   # 配置druid数据源——需要根据实际配置进行修改!!!!!!!!!!!!!!!!!!!!
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/db_serverless_user_edu?useUnicode=true&serverTimezone=UTC&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true
-    username: root
-    password: 123456
+    url: jdbc:mysql://pc-bp1see488eb499zp9.rwlb.rds.aliyuncs.com
+    username: dlxt
+    password: 88888888@d
     type: com.alibaba.druid.pool.DruidDataSource
 
     #Spring Boot 默认是不注入这些属性值的，需要自己绑定
@@ -40,8 +40,8 @@ spring:
   # Redis配置
   redis:
     port: 6379
-    host: 127.0.0.1
-    password: 123456
+    host: r-bp1dopal69xu0h3hnq.redis.rds.aliyuncs.com
+    password:88888888@d
     database: 0
     lettuce:
       pool:
